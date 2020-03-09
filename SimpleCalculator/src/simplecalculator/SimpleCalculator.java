@@ -38,6 +38,7 @@ public class SimpleCalculator {
         frame.setSize(400, 450);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);
         frame.setLayout(null);
     }
 
