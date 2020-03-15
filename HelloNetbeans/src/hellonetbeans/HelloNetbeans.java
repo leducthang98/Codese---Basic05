@@ -17,6 +17,10 @@ public class HelloNetbeans {
     public static void main(String[] args) {
         Integer a = new Integer(5);
         System.out.println(a+5);
+       
+    }
+    static void A(){
+        
     }
     
 }
