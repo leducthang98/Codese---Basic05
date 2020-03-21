@@ -58,6 +58,7 @@ public class Lesson01 {
 ////        x2 = sc.nextDouble();
 ////        double result = -x2 / x1;
 ////        System.out.println("result: " + result);
+        
 ////        if (1 == 4) {
 ////            System.out.println("true");
 ////        } else {
