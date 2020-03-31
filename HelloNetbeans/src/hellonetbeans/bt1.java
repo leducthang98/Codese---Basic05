@@ -12,7 +12,7 @@ package hellonetbeans;
 public class bt1 {
 
     public static void main(String[] args) {
-
+        
         int a[] = {5, 5, 5, 5, 5, 5, 5, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3};
         int count = 1;
         int maxValue = 0;

@@ -13,9 +13,9 @@ class Person {
 
     // public, private
     // Thuoc tinh (Bien)
-    private String name;
-    private int age;
-    private int salary = 1000;
+    private String name; //getter setter
+    private int age;//getter setter
+    private int salary = 1000; // getter
 
     public Person() {
         System.out.println("Person initalize!");
@@ -52,4 +52,13 @@ class Person {
         return salary;
     }
 
+
+    // class :  (Cat, Dog, Fish) => non-wings-animal => animals
+    // class : (Bird, fly, dragon) => wings-animal
+    // Scanner , Random, Math, Arraylist, String, Integer =>...=>.... =>.... => Object
+    // extends, super, abstract, interface, impliments,override, overload,....
+    // .exe class: JFrame
+    // Java Core => Java Spring/ Hybernate, Socket...
+    // player, enemy => chess
+    //
 }
