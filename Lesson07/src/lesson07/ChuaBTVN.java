@@ -44,17 +44,7 @@ public class ChuaBTVN {
 //            System.out.print(a[i] + " ");
 //        }
 //        System.out.println("So buoc: " + count);
-        ArrayList<Integer> arr = new ArrayList<>();
-        arr.add(2);
-        arr.add(3);
-        arr.add(1);
-        arr.add(4); // 2 4 1 3
-        int temp = arr.get(1);
-        arr.set(1, 4);
-        arr.set(3, temp);
-        for (int i = 0; i < arr.size(); i++) {
-            System.out.println(arr.get(i));
-        }
-        
+       Student hocsinh1 = new Student();
+       hocsinh1.setName("Thang");
     }
 }
