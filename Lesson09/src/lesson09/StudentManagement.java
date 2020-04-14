@@ -45,8 +45,11 @@ public class StudentManagement {
 
     public boolean deleteStudent(String MSSV) throws IOException {
         File f = new File(folderStudent.getPath() + "\\" + MSSV + ".txt");
-        boolean result = f.delete();
-        return result;
+        if (f.delete()) {
+            this.updateDataFromFileToArray("students");
+            return true;
+        }
+        return false;
     }
 
     public void showStudents() {
@@ -87,6 +90,8 @@ public class StudentManagement {
             FileReader fr = new FileReader(listFile[i]);
             BufferedReader bf = new BufferedReader(fr);
             dataReadFromFile = bf.readLine(); // name age sex grade
+            fr.close();
+            bf.close();
             for (String initData : dataReadFromFile.split(":")) {
                 dataSplited[count] = initData;
                 count++;
